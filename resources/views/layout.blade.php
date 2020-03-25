@@ -32,10 +32,10 @@ Released   : 20140225
       <div id="menu">
         <ul>
           <li class="{{url()->current() == url('/') ? 'current_page_item' :''}}"><a href="{{url('/')}}" accesskey="1" title="">Homepage</a></li>
-          <li><a href="#" accesskey="2" title="">Our Clients</a></li>
+          <li class="{{url()->current() == url('/clients') ? 'current_page_item' :''}}"><a href="#" accesskey="2" title="">Our Clients</a></li>
           <li class="{{url()->current() == url('/about') ? 'current_page_item' :''}}"><a href="/about" accesskey="3" title="">About Us</a></li>
-          <li><a href="#" accesskey="4" title="">Careers</a></li>
-          <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+          <li class="{{url()->current() == url('/carrers') ? 'current_page_item' :''}}"><a href="#" accesskey="4" title="">Careers</a></li>
+          <li class="{{url()->current() == url('/contact') ? 'current_page_item' :''}}"><a href="#" accesskey="5" title="">Contact Us</a></li>
         </ul>
       </div>
     </div>
